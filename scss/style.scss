@@ -1,0 +1,38 @@
+/* General */
+@import 'base/general';
+
+/* Dando detalles a los botones de la pagina */
+@import 'base/variables';
+
+@import 'base/botones';
+
+
+
+/* Fondo de toda la pagina */
+.contenedor{
+     background-color: $negro;
+}
+
+/* Header */
+@import 'components/header';
+
+/* Sobre mi */
+@import 'components/sobreMi';
+
+/* Portfolio */
+@import 'components/portfolio';
+
+/* trabajos realizados*/
+@import 'components/trabajos';
+
+//proyectos
+
+@import 'components/proyectos';
+
+/* Contacto */
+@import 'components/contacto';
+
+
+/* Footer*/
+@import 'components/footer';
+

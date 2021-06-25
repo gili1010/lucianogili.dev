@@ -1,0 +1,13 @@
+
+.boton{
+     font-size: 16px;
+     background-color:$rojo ;
+     color: $blanco;
+     border-radius: 5px;
+     padding: 3px;
+
+     &:hover{
+          font-size: 19px;
+          background-color:darken($rojo, 15%) ;
+     }
+} 

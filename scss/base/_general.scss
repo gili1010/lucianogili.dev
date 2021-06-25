@@ -1,0 +1,36 @@
+*{
+     box-sizing: border-box;
+}
+
+/* agregando valores a toda lapagina */
+html, body{
+     font-family: 'Quicksand', sans-serif;
+     margin:0;
+     padding: 0;
+     scroll-behavior: smooth;
+}
+
+/* Todos los titulos h2 en mayusculas */
+h2{
+     text-transform: uppercase;
+}
+
+/* links */
+
+ul{
+     li{
+          list-style: none;
+          a{
+               text-decoration: none;
+               color: rgb(105, 33, 33);  
+          }
+     }
+}
+
+/* sombreado */
+.sombra{
+     box-shadow: -9px 17px 11px 0px rgba(0,0,0,0.59);
+     -webkit-box-shadow: -9px 17px 11px 0px rgba(0,0,0,0.59);
+     -moz-box-shadow: -9px 17px 11px 0px rgba(0,0,0,0.59);
+     margin: 10px;
+}

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=5.0">
+
+     <!-- Metaetiquetas -->
+     <meta name="description" content="pagina web personal creada para mostrar todo el conocimiento adquirido y demostrar los trabajos realizados por mi">
+
+     <meta name="keywords" content="desarrolador web, desarrollador, programador, FullStack, bootstrap, javascript,css, html, sass, node, mongodb, proyectos, freelance, argentina, ingles">
+
+     <!-- open graph -->
+     <meta property="og:title" content="pagina web personal creada para mostrar todo el conocimiento adquirido y demostrar los trabajos realizados por mi">
+     <meta property="og:author" content="Luciano Gili">
+     <meta property="og:description" content="pagina web personal creada para mostrar todo el conocimiento adquirido y demostrar los trabajos realizados por mi">
+
+     <!-- Google search -->
+     <meta name="google-site-verification" content="EOEKRMCqTgXC-9-snQvfu5jf0l9TJTSk_0uB-oh4yQM" />
+
+     <!-- Iconos de FontAwesome -->
+     <script async src="https://kit.fontawesome.com/700bb6b34f.js" crossorigin="anonymous"></script>
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+     <!-- Animaciones con css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     <!-- Animacion con AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- Swiper carrousel -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+     <!-- style css -->
+
+     <link rel="stylesheet" href="./css/style.css">
+
+     <title>Portfolio Luciano Gili Desarrollador web FullStack</title>
+</head>
+<body>
+     <!-- contenedor de todo el proyecto -->
+     <div class="contenedor">
+
+     <!-- inicio NAV --> 
+     <header class="contenedorNav">
+
+          <nav class="navbar navbar-expand-md navbar-dark bg-nav">
+               <div class="container-fluid">
+                    <a class="navbar-brand logo" href="#">
+                         <img src="image/Luciano.webp" alt="logo de mi pagina web" title="link directo al home de la pagina principal">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse menu navbar-collapse" id="navbarNav">
+                         <ul class="navbar-nav ms-auto">
+                              <li class="nav-item">
+                                   <a class="nav-link link " aria-current="page" href="#Inicio" title="acceso directo al home de la pagina">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link link" href="#About" title="link directo a la section sobre mi">Sobre Mi</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link link" href="#Portfolio" title="link directo a la section portfolio">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link link" href="#Contacto" title="link directo a la section contacto">Contacto</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link link" href="#Cv" title="link directo a la section descargar curriculum vitae">Cv</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+          
+
+          <section class="bienvenido" id="inicio">
+               <div class="presentacion">
+                    <h1 class="titulo animate__animated animate__backInDown animate__delay-2s">Bienvenido</h1>
+                    <p class="animate__animated animate__slideInRight animate__delay-1s">
+                         Soy Luciano <span>Desarrollador web FullStack</span>, aqui encontraras informacion sobre mi, mis estudios, proyectos, trabajos realizados y podras ponerte en contacto con migo si asi lo deseas. 
+                    </p>
+               </div>
+
+               <div class="botones-inicio">
+                    <button onclick="location.href='pages/cv.html'" target="_blank" class="boton sombra animate__animated animate__bounceInUp animate__delay-1s" title="link directo a la section descargar curriculum vitae">Descargar CV</button>
+                    <button class="boton sombra animate__animated animate__bounceInUp animate__delay-1s" title="link directo a la section sobre mi">Sobre Mi</button>
+               </div>
+
+          </section>
+
+                         <!-- redes con la propiedad fixed -->
+                         <a class="whatsappFixed" href="https://api.whatsapp.com/send?phone=3547636574&text=Hola%20me%20comunico%20por%20tu%20pagina%20web" target="_blank" rel="noreferrer" title="link directo a whatsapp"><i class="fab fa-whatsapp-square"></i></a>
+
+                         <a class="facebookFixed" href="https://msng.link/o/?https://www.facebook.com/luciano.gili/=fm" target="_blank" rel="noreferrer" title="link directo a facebook"><i class="fab fa-facebook-messenger"></i></a>
+
+     </header>
+     <!-- FIN NAV -->
+
+     <!-- Inicio Sobre Mi -->
+     <section class="sobreMi sombra" id="About">
+          <h2  data-aos="fade-right"
+               data-aos-offset="100"
+               data-aos-easing="ease-in-sine"  
+               class="titulo">Sobre Mi</h2>
+                    
+                    <p data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine" >
+                         Siempre Fui un apasionado por la tecnologia y las computadoras, aunque la vida y el destino te llevan por caminos impensados, comenze trabajando en comercio mas precisamente una empresa retail hace ya 10 años. Tuve la suerte de poder crecer, aprender, capacitarme y sobre todo de encontrar buena gente adentro.       
+                    </p>
+                    <p data-aos="fade-right"
+                    data-aos-offset="150"
+                    data-aos-easing="ease-in-sine" >
+                         Actualmente me desempeño como encargado hace mas de 6 años, siempre logrando objetivos y metas puestas por la empresa y disfrutando el dia a dia.   
+                    </p>
+                    <p data-aos="fade-right"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine" >
+                         En el año 2017 comenze a estudiar la carrera Analista de Sistemas en el ISSD de la ciudad de cordoba, curse hasta 2019 año en que lamentablemente deje por motivos personales, cuento con 18 materias aprobadas de las 31 que tiene la carrera.
+                    </p>
+                    <p data-aos="fade-right"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine" >
+                         Si bien deje la carrera, siempre estuve haciendo cursos y capacitandome en distintos lenguajes de programacion y en las distintas plataformas que se pueden encontrar en la web tanto gratis como de pago.
+                    </p>
+                    <p data-aos="fade-right"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine" >
+                         En el año 2020 me senti con ganas de volver a estudiar por lo que me propuse hacer la carrera de FullStack de CoderHouse en la cual me encuentro cursando actualmente.
+                         La misma cuenta con los cursos de desarrollo web, javascript, react y todo un backend con node y mongodb.
+                    </p>
+                    <p data-aos="fade-right"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine" >
+                         Me considero una persona responsable por mi trabajo, con ganas de seguir creciendo y aprendiendo, con experiencia en liderar grupos y personas.
+                    </p>
+
+     </section>
+     <!-- Fin Sobre Mi -->
+
+     <!-- Inicio Portfolio -->
+     <section class="caminoRealizado" id="Portfolio">
+          <h2 data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"  class="titulo">Portfolio</h2>
+          <div class="container-full">
+
+               <!-- swiper -->
+
+               <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                         <div class="swiper-slide"><img src="./image/html5.webp" alt="lenguaje html" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/css.webp" alt="imagen css" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/git.webp" alt="git" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/GitHub.webp" alt="git hub" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/seo.webp" alt="lenguaje html" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/sass.webp" alt="imagen de sass" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/javascript.webp" alt="imagen de javascript" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/bootstrap.webp" alt="imagen de bootstrap" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/react.webp" alt="imagen de react" loading="lazy"></div>
+                         <div class="swiper-slide"><img src="./image/node.webp" alt="imagen de node" loading="lazy"></div>
+                         </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+               </div>
+
+
+          </div>
+
+          
+     </section>
+     <!-- Fin Portfolio -->
+
+     <!-- Inicio Certificados -->
+     <section class="trabajos">
+          <h2 data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"  class="titulo">Certificados</h2>
+          <div class="paginas">
+               <div class=" card-columns">
+
+                    <div class="row mb-3 mb-md-4">
+                         <div class="col-12 col-md-4 mb-3">
+                              <div class="card"
+                              data-aos="flip-right"
+                              data-aos-easing="ease-out-cubic"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-bootstrap.webp" alt="certificado bootstrap" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                   <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail img-fluid" src="image/cert-bootstrap.webp" alt="certificado de bootstrap" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+     
+                         <div class="col-12 col-md-4 mb-3">                         
+                              <div class="card"
+                              data-aos="zoom-in"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa2" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-js.webp" alt="certificado javascript" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                             <!-- Modal -->
+                              <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail" src="image/cert-js.webp" alt="certificado javascript" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+     
+                         <div class="col-12 col-md-4">                         
+                              <div class="card"
+                              data-aos="flip-left"
+                              data-aos-easing="ease-out-cubic"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa3" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-react.webp" alt="certificado react" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                             <!-- Modal -->
+                              <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail" src="image/cert-react.webp" alt="certificado react" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+     
+                    <div class="row">
+                         <div class="col-12 col-md-4 mb-3">
+                              <div class="card"
+                              data-aos="flip-right"
+                              data-aos-easing="ease-out-cubic"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-seo.webp" alt="certificado seo" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                   <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail" src="image/cert-seo.jpg" alt="certificado seo" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+     
+                         <div class="col-12 col-md-4 mb-3">                         
+                              <div class="card"
+                              data-aos="zoom-in"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa2" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-js.webp" alt="certificado javascript" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                             <!-- Modal -->
+                              <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail" src="image/cert-js.webp" alt="certificado javascript" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+     
+                         <div class="col-12 col-md-4">                         
+                              <div class="card"
+                              data-aos="flip-left"
+                              data-aos-easing="ease-out-cubic"
+                              data-aos-duration="2000"
+                              >
+                                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa3" title="abrir imagen">
+                                        <img class="card-img-top" src="image/cert-react.webp" alt="certificado react" loading="lazy">
+                                   </a>
+                              </div>
+     
+                                             <!-- Modal -->
+                              <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <img class="img-thumbnail" src="image/cert-react.webp" alt="certificado react" loading="lazy">
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+     
+               </div>
+          </div>
+
+     </section>
+     <!-- Fin Certificados -->
+
+     <!-- Inicio Proyectos -->
+
+     <section class="proyectos">
+          <h2 data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"  class="titulo">Proyectos</h2>
+
+          <div class="paginas-proyectos">
+               <div class="row">
+
+                    <div class="col-12 pb-4 col-md-4 ">
+                    <div class="contenedor-tarjeta">
+                         <div class="wrapper">
+                              <div class="tarjeta">
+                                   <img src="image/web-bebidas.webp" alt="pagina web de bebidas" loading="lazy">
+                                   <div class="info">
+                                        <p>Pagina diseñada para una tienda de bebidas online</p>
+                                        <a class="boton px-2 py-0" href="https://bebidasag.netlify.app/" target="
+                                        _blank" rel="noreferrer">Visitar</a>
+                                   </div>
+                              </div>
+                         </div>   
+                    </div>
+                    </div>
+
+                    <div class="col-12 pb-4 col-md-4 ">
+                         <div class="contenedor-tarjeta">
+                              <div class="wrapper">
+                                   <div class="tarjeta">
+                                        <img src="image/home-padel.webp" alt="pagina web de padel" loading="lazy">
+                                        <div class="info">
+                                             <p>Sitio Web desarrolado para un complejo de canchas de padel</p>
+                                             <a class="boton px-2 py-0" href="https://padel360.netlify.app/" target="
+                                             _blank" rel="noreferrer">Visitar</a>
+                                        </div>
+                                   </div>
+                              </div>   
+                         </div>
+                         </div>
+
+
+                    <div class="col-12 pb-4 col-md-4 ">
+                         <div class="contenedor-tarjeta">
+                              <div class="wrapper">
+                                   <div class="tarjeta">
+                                        <img src="image/barberia.webp" alt="pagina web de picadas y desayunos" loading="lazy">
+                                        <div class="info">
+                                             <p>Sitio Web de una barberia para poder sacar turno online</p>
+                                             <a class="boton px-2 py-0" href="https://thebarberag.netlify.app/" target="
+                                             _blank" rel="noreferrer">Visitar</a>
+                                        </div>
+                                   </div>
+                              </div>   
+                         </div>
+                    </div>
+
+               </div>
+               
+               <div class="row">
+
+                    <div class="col-12 pb-3 col-md-4 ">
+                    <div class="contenedor-tarjeta">
+                         <div class="wrapper">
+                              <div class="tarjeta">
+                                   <img src="image/portfolio.webp" alt="portfolio personal" loading="lazy">
+                                   <div class="info">
+                                        <p>Sitio Web personal diseñado para mostrar todos mis proyectos personales</p>
+                                        <a class="boton px-2 py-0" href="https://portafol1010.000webhostapp.com/" target="
+                                        _blank" rel="noreferrer">Visitar</a>
+                                   </div>
+                              </div>
+                         </div>   
+                    </div>
+                    </div>
+
+                    <div class="col-12 pb-3 col-md-4 ">
+                         <div class="contenedor-tarjeta">
+                              <div class="wrapper">
+                                   <div class="tarjeta">
+                                        <img src="image/seguro.webp" alt="pagina web de padel" loading="lazy">
+                                        <div class="info">
+                                             <p>Sitio Web realizado en react para un ejemplo de calular el precio de un seguro</p>
+                                             <a class="boton px-2 py-0" href="https://seguros10.netlify.app/" target="
+                                             _blank" rel="noreferrer">Visitar</a>
+                                        </div>
+                                   </div>
+                              </div>   
+                         </div>
+                         </div>
+
+
+                    <div class="col-12 pb-3 col-md-4 ">
+                         <div class="contenedor-tarjeta">
+                              <div class="wrapper">
+                                   <div class="tarjeta">
+                                        <img src="image/jobs.webp" alt="pagina web de trabajos" loading="lazy">
+                                        <div class="info">
+                                             <p>Sitio Web para desarrolado para conseguir empleo de forma online</p>
+                                             <a class="boton px-2 py-0" href="https://jobsag.netlify.app/" target="
+                                             _blank" rel="noreferrer">Visitar</a>
+                                        </div>
+                                   </div>
+                              </div>   
+                         </div>
+               </div>
+
+          </div>
+     </section>
+
+     <!-- Fin proyectos -->
+
+     <!-- Inicio Contacto -->
+     <section class="contenedorContacto" id="Contacto"> 
+          <h2 data-aos="fade-right"
+          data-aos-offset="100"2
+          data-aos-easing="ease-in-sine"  class="titulo">Contacto</h2>
+
+
+          <div class="contenedorForm">   
+               <div class="form">   
+                    <form method="POST" action="enviar2.php">
+                         <p>
+                              <label for="Nombre">Nombre</label>
+                              <input type="text" name="nombre" id="Nombre" required="required">
+                         </p>
+                         <p>
+                              <label for="Email">Email</label>
+                              <input type="email" name="email" id="Email" required="required">
+                         </p>
+                         <p>
+                              <label for="Telefono">Telefono</label>
+                              <input type="tel" name="telefono" id="Telefono" required="required">
+                         </p>
+                         <p>
+                              <label for="Asunto">Asunto</label>
+                              <input type="text" name="asunto1" id="Asunto" required="required">
+                         </p>
+                         <p class="block">
+                         <label for="Mensaje">Mensaje</label> 
+                              <textarea name="mensaje" rows="2" id="Mensaje" required="required"></textarea>
+                         </p>
+                         <p class="block">
+                              <button type="submit" >
+                              Enviar
+                              </button>
+                         </p>
+                    </form>
+               </div>
+               
+               <div class="redes">
+                    <h3 class="text-center">Informacion</h3>
+                    
+                    <div class="text-center p-2">
+                         <p><i class="fas fa-map-marker-alt"></i> Alta Gracia, Cordoba</p>
+                         <p><i class="fas fa-phone"></i> +549 (3547) 15636574</p>
+                         <p><i class="fas fa-envelope-open-text"></i> lucianog_332@ hotmail.com</p>
+                    </div>
+
+                    
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54339.325806150104!2d-64.47627121998833!3d-31.655532419033165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d574ade89939b%3A0x5290b7919d5d43fd!2sAlta%20Gracia%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1619750831568!5m2!1ses-419!2sar" height="250" style="border:0;" allowfullscreen="" loading="lazy" title="mapa de la ubicacion de contacto">
+                    </iframe>
+                         <ul>
+                              <li>
+                                   <a href="https://www.facebook.com/luciano.gili" target="_blank" title="link directo a facebook" rel="noreferrer">
+                                        <i class="fab fa-facebook-square"></i>
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="#" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-instagram-square" title="link directo a instagram"></i>
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="#" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-linkedin" title="link directo a linkedin">
+                                        </i>
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="#" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-whatsapp-square" title="link directo a whatsapp"></i>
+                                   </a>
+                              </li>
+                              <li>
+                                   <a href="#" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-youtube" title="link directo a youtube"></i>
+                                   </a>
+                              </li>
+                         </ul>       
+               </div>
+          </div>
+          
+          
+     </section>
+     <!-- Fin Contacto -->
+
+     <!-- Inicio Footer -->
+     <footer class="container-fluid" id="Cv">
+          <div class="row footer">
+               <div class="col-12 col-lg-4">
+                    <ul>
+                         <li>
+                              <a href="#inicio" title="link directo a la pagina principal">Inicio</a>
+                         </li>
+                         <li>
+                              <a href="#About" title="link directo a la section sobre mi">Sobre Mi</a>
+                         </li>
+                         <li>
+                              <a href="#Portfolio" title="link directo a la section portfolio">Portfolio</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="col-12 col-lg-4">
+                    <ul>
+                         <li>
+                              <a href="https://www.facebook.com/luciano.gili" target="_blank" title="link directo facebook" rel="noreferrer">
+                                   <i class="fab fa-facebook-square"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#" target="_blank" title="link directo a instagram" rel="noreferrer">
+                                   <i class="fab fa-instagram-square"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#" target="_blank" title="link directo a linkedin" rel="noreferrer">
+                                   <i class="fab fa-linkedin"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#" target="_blank" title="link directo a whatsapp" rel="noreferrer">
+                                   <i class="fab fa-whatsapp-square"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#" target="_blank" title="link directo a youtube" rel="noreferrer">
+                                   <i class="fab fa-youtube"></i>
+                              </a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="col-12 col-lg-4">
+                         <button class="boton" title="descargar curriculum vitae">Descargar Cv</button>
+               </div>
+
+          </div>
+
+     </footer>
+     <!-- Fin footer -->
+
+     </div>
+     <!-- Fin del contenedor principal -->
+
+     <!-- Animacion AOS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script async>
+          AOS.init();
+     </script>
+
+     <!-- Swiper carrousel -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- import swiper.js -->
+     <script async src="js/swiper.js"></script>
+
+     <!-- Bootstrap -->
+     <script async src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
