@@ -7,6 +7,9 @@ Personal page created as a portfolio to show my knowledge and to be able to demo
 <p align="left">
 The web page created was made from scratch using Bootstrap, swiper.js for the carrousel, AOS and Animate.css for the animations.
 </p>
+<p>
+To visit the page <a href="https://gili1010.github.io/lucianogili.dev/" target="blank">click</a>
+</p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/luciano-gili/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/luciano-gili/" height="30" width="40" /></a>
