@@ -276,6 +276,11 @@ ul li a {
   padding: 10px 40px 40px 30px;
   font-family: "Lemonada", cursive;
 }
+@media (max-width: 500px) {
+  .proyectos {
+    padding: 10px 10px 40px 10px;
+  }
+}
 .proyectos h2 {
   margin: 5px;
   font-size: 30px;
