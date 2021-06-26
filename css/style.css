@@ -168,6 +168,11 @@ ul li a {
   font-size: 45px;
   color: #fff;
 }
+@media (max-width: 500px) {
+  .contenedorNav .facebookFixed {
+    font-size: 30px;
+  }
+}
 .contenedorNav .whatsappFixed {
   position: fixed;
   bottom: 10px;
@@ -175,6 +180,12 @@ ul li a {
   font-size: 45px;
   color: #07e449;
 }
+@media (max-width: 500px) {
+  .contenedorNav .whatsappFixed {
+    font-size: 30px;
+  }
+}
+
 /* Sobre mi */
 /* sobre mi */
 .sobreMi {

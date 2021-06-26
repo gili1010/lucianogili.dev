@@ -129,12 +129,20 @@
                &:hover{
                     @extend %fixed;
                }
+
+               @media (max-width:500px) {
+                    font-size: 30px;
+               }
           }
           .whatsappFixed{
                @include fixed(rgb(7, 228, 73), 10px);
 
                &:hover{
                     @extend %fixed;
+               }
+
+               @media (max-width:500px) {
+                    font-size: 30px;
                }
           }
      }
