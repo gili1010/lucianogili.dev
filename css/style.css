@@ -184,6 +184,7 @@ ul li a {
 @media (max-width: 500px) {
   .contenedorNav .whatsappFixed {
     font-size: 30px;
+    bottom: 10px;
   }
 }
 
