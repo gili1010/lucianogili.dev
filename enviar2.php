@@ -17,10 +17,10 @@ $mensaje .= "El asunto es: " . $asunto1 . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'lucianog_332@hotmail.com';
+$para ='lucianog_332@hotmail.com';
 /* $asunto = 'Mensaje de mi sitio web'; */
 
-@mail($para, $asunto1, utf8_decode($mensaje), $header);
+@mail($para, utf8_decode($mensaje), $header);
 
 header("Location:index.html");
 ?>
