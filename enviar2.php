@@ -3,7 +3,7 @@ $nombre = $_POST['nombre'];
 $mail = $_POST['email'];
 $telefono = $_POST['telefono'];
 $asunto1 = $_POST['asunto1'];
-$mensaje = $_POST['mensaje'];
+$msg = $_POST['mensaje'];
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -20,7 +20,7 @@ $mensaje .= "Enviado el " . date('d/m/Y', time());
 $para = 'lucianog_332@hotmail.com';
 /* $asunto = 'Mensaje de mi sitio web'; */
 
-mail($para, $asunto1, utf8_decode($mensaje), $header);
+@mail($para, $asunto1, utf8_decode($mensaje), $header);
 
 header("Location:index.html");
 ?>
