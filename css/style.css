@@ -43,8 +43,8 @@ ul li a {
   padding: 3px;
 }
 .boton:hover {
-  font-size: 19px;
-  background-color: #870505;
+  font-size: 17px;
+  background-color: #a00606;
 }
 
 /* Fondo de toda la pagina */
@@ -160,6 +160,9 @@ ul li a {
 }
 .contenedorNav .bienvenido .botones-inicio {
   margin-top: 30px;
+}
+.contenedorNav .bienvenido .botones-inicio .boton:hover {
+  padding: 1px;
 }
 .contenedorNav .facebookFixed {
   position: fixed;

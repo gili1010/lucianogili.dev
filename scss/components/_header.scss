@@ -119,6 +119,13 @@
                .botones-inicio{
                     @extend %flexbox;
                     margin-top: 30px;
+
+                     .boton{
+
+                         &:hover{
+                              padding: 1px;
+                         }
+                    } 
                }
           }
 
