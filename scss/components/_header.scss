@@ -60,11 +60,18 @@
                .navbar-nav{
                     .nav-link{
                          color: burlywood;
+                         padding: 10px;
 
                          &:hover{
                               color: rgb(209, 8, 8);
-                              font-size: 20px;
+                              font-size: 16px;
                               padding-bottom: 0;
+                              
+
+                              @media (min-width:992px){
+                                   border-bottom: rgb(209, 8, 8) solid 3px;
+                                   transition: all .5s ease;
+                              }
                          }
                     }
                }

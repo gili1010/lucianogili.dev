@@ -103,11 +103,18 @@ ul li a {
 }
 .contenedorNav .navbar-dark .navbar-nav .nav-link {
   color: burlywood;
+  padding: 10px;
 }
 .contenedorNav .navbar-dark .navbar-nav .nav-link:hover {
   color: #d10808;
-  font-size: 20px;
+  font-size: 16px;
   padding-bottom: 0;
+}
+@media (min-width: 992px) {
+  .contenedorNav .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: #d10808 solid 3px;
+    transition: all 0.5s ease;
+  }
 }
 .contenedorNav .logo {
   padding: 10px 10px 10px 20px;
