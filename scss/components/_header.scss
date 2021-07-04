@@ -36,6 +36,27 @@
           }
 
           .navbar-dark{
+               .navbar-toggler {
+                    padding: 0;
+                    font-size: 1rem;
+                    line-height: 1;
+                    background-color: transparent;
+                    border: none;
+                    border-radius: 0;
+
+                    .boton-menu::before{
+                         font-family: "Font Awesome 5 Free";
+                         content: "\f233";
+                         font-weight: 900;
+                         font-size: 1.6rem;
+                         color: #fff;
+                    }
+                    .icono-cerrar::before{
+                         content: "\f00d";
+                         font-size: 30px;
+                    }
+               }
+
                .navbar-nav{
                     .nav-link{
                          color: burlywood;
@@ -120,7 +141,7 @@
                     @extend %flexbox;
                     margin-top: 30px;
 
-                     .boton{
+                    .boton{
 
                          &:hover{
                               padding: 1px;
