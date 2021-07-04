@@ -141,6 +141,15 @@
                     @extend %flexbox;
                     margin-top: 30px;
 
+                    a{
+                        text-decoration: none; 
+                        &:hover{
+                         padding: 10px;
+                         color: #fff;
+                         background-color:darken($rojo, 15%) ;
+                    }
+                    }
+
                     .boton{
 
                          &:hover{

@@ -181,6 +181,14 @@ ul li a {
 .contenedorNav .bienvenido .botones-inicio {
   margin-top: 30px;
 }
+.contenedorNav .bienvenido .botones-inicio a {
+  text-decoration: none;
+}
+.contenedorNav .bienvenido .botones-inicio a:hover {
+  padding: 10px;
+  color: #fff;
+  background-color: #870505;
+}
 .contenedorNav .bienvenido .botones-inicio .boton:hover {
   padding: 1px;
 }
@@ -584,8 +592,7 @@ ul li a {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  align-items: center;
+  padding: 8px;
 }
 .footer ul {
   display: flex;
@@ -594,14 +601,14 @@ ul li a {
 }
 .footer ul li a {
   color: #fff;
-  padding: 25px 10px;
+  padding: 14px 8px;
+  font-size: 18px;
 }
 .footer ul li a:hover {
   color: #d10808;
-  font-size: 22px;
 }
 .footer ul li a i {
-  font-size: 25px;
+  font-size: 23px;
   border-radius: 80%;
   background-color: black;
   color: white;
@@ -614,9 +621,15 @@ ul li a {
   transform: rotate(360deg);
   transition: all 1.2s ease-in-out;
 }
-.footer button {
-  font-size: 14px;
+.footer .descargar {
+  font-size: 15px;
   margin-left: 32px;
+  text-decoration: none;
+}
+.footer .descargar:hover {
+  font-size: 16px;
+  background-color: #870505;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
